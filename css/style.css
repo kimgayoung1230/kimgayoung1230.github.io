@@ -769,7 +769,6 @@ MENU STYLING
 LIST STYLING
 ***************/
 .noList {
-  list-style: none;
   padding-left: 0;
   margin-left: 0; }
 
@@ -791,6 +790,10 @@ PAGE STYLES
 .pageTitle {
   margin: 2rem auto 1em;
   text-align: center; }
+
+  .pageSmall {
+    text-align: center;
+    color: #A6A6A6; }
 
 .content {
   padding-top: 1em;
@@ -1051,7 +1054,7 @@ HOMEPAGE STYLING
     #home .pageSmall {
       width: 75%;
       float: none;
-      margin: 0 auto 1.5em;
+      margin: 2rem auto 1em;
       color: #5D5D5D;  }
   /***************
 HEADER STYLING
@@ -1066,7 +1069,7 @@ HEADER STYLING
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
       max-width: 800px; }
-    .header h2 {
+    .header h1 {
       font-size: 3em;
       line-height: 1;
       letter-spacing: -3px;
