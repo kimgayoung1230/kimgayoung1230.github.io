@@ -50,7 +50,7 @@ description: 저의 주요 활동 및 수상 실적을 자세하게 확인하실
 
 ### 교내 수상 실적
 * 2018
- * 동서대학교 포트폴리오 경진대회 - 우수
+  * 동서대학교 포트폴리오 경진대회 - 우수
 * 2017
   * 상상씨앗공모전 - 3등
   * DSU 창업 아이디어 경진대회 - 최우수
@@ -84,8 +84,12 @@ description: 저의 주요 활동 및 수상 실적을 자세하게 확인하실
   * KSCI 한국컴퓨터정보학회 학술대회 - 우수 논문
 
 <blockquote>
-### 자료
-
+<| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |>
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
 </blockquote>
 <!--
 <blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
