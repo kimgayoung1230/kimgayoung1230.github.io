@@ -87,10 +87,10 @@ description: 저의 주요 활동 및 수상 실적을 자세하게 확인하실
 <div>
   <table border="1">
     <tr>
-      <td><img src="/img/우수논문.jpg" width="100" height="200"></td>
-      <td><img src="/img/상상씨앗.png" width="100" height="200"></td>
-      <td><img src="/img/2017.png" width="100" height="200"></td>
-      <td><img src="/img/2016.png" width="100" height="200"></td>
+      <td><img src="/img/우수논문.jpg" width="210" height="300"></td>
+      <td><img src="/img/상상씨앗.png" width="210" height="300"></td>
+      <td><img src="/img/2017.png" width="210" height="300"></td>
+      <td><img src="/img/2016.png" width="210" height="300"></td>
     </tr>
   </table>
 </div>

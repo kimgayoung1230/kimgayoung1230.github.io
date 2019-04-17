@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: autumn:AlwaysHappYoung
 ---
 
 <div class="post">
