@@ -13,21 +13,13 @@ title: autumn:AlwaysHappYoung
         <p>동서대학교 컴퓨터공학부 졸업</p>
         <p>kimgayoung1230@gmail.com</p>
       </li>
-      <li>
-        <h3>Profile</h3>
-        <p>김가영</p>
-        <p>1996년 9월 7일</p>
-        <p>동서대학교 컴퓨터공학부 졸업</p>
-        <p>kimgayoung1230@gmail.com</p>
-      </li>
+      {% for post in paginator.posts %}
+        <li>
+          <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+        </li>
+      {% endfor %}
   </ul>
-    <!-- {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %} -->
 
   <!-- Pagination links -->
   <div class="pagination">
