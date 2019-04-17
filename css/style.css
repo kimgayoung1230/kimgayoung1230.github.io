@@ -489,7 +489,7 @@ CLEAR AFTER FLOATS
 BUTTON DEFAULTS
 ***************/
 .button, .button-secondary, .button-tertiary, .button__outline {
-  background-color:  #e6e6e6;
+  background-color: #97a9cc;
   display: inline-block;
   position: relative;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -523,10 +523,10 @@ BUTTON DEFAULTS
 
 .button__outline {
   background-color: transparent;
-  border: 3px solid  #e6e6e6;
-  color:  #e6e6e6; }
+  border: 3px solid  #97a9cc;
+  color:  #97a9cc; }
   .button__outline:hover {
-    background-color:  #e6e6e6;
+    background-color: #97a9cc;
     color: #fff; }
 
 /***************
@@ -537,7 +537,7 @@ label {
   margin-bottom: 5px; }
 
 input[type=text], input[type=email], input[type=phone], input[type=password], input[type=number], input[type=search], textarea {
-  background: #e6e6e6;
+  background: #97a9cc;
   padding: 5px;
   outline: none;
   border: none;
@@ -545,7 +545,7 @@ input[type=text], input[type=email], input[type=phone], input[type=password], in
   width: 300px;
   margin-bottom: .5rem; }
   input[type=text]:focus, input[type=email]:focus, input[type=phone]:focus, input[type=password]:focus, input[type=number]:focus, input[type=search]:focus, textarea:focus {
-    border: 1px solid  #e6e6e6; }
+    border: 1px solid #97a9cc; }
   input[type=text].full-width, input[type=email].full-width, input[type=phone].full-width, input[type=password].full-width, input[type=number].full-width, input[type=search].full-width, textarea.full-width {
     width: 100%; }
 
@@ -704,7 +704,7 @@ img, video, audio, iframe, object {
 LINK STYLING
 ***************/
 a {
-  color:  #e6e6e6; }
+  color:  #97a9cc; }
   a:hover {
     color: #1b5233; }
 
@@ -722,7 +722,7 @@ MENU STYLING
     .nav-collapse ul li {
       width: 100%;
       display: block;
-      background:  #e6e6e6;
+      background:  #97a9cc;
       border-bottom: 2px solid #349e63; }
       .nav-collapse ul li a {
         color: white;
@@ -753,7 +753,7 @@ MENU STYLING
   float: right;
   line-height: 2em;
   margin-top: .5em;
-  background-color:  #e6e6e6;
+  background-color: #97a9cc;
   border-radius: 4px;
   padding: 0 .5em;
   color: white;
@@ -800,7 +800,7 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 .header {
-  background-color:  #e6e6e6;
+  background-color: #97a9cc;
   background-image: url("../img/touring.jpg");
   background-size: cover;
   background-position: center center;
@@ -810,7 +810,7 @@ HEADER STYLING
   .header .container {
     padding: 0;
     max-width: 100%; }
-  .header h2 {
+  .header h3 {
     margin: 0;
     float: left;
     padding-left: 2rem;
@@ -819,7 +819,7 @@ HEADER STYLING
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 800;
     text-transform: uppercase; }
-    .header h2 a {
+    .header h3 a {
       color: white;
       text-decoration: none; }
 
@@ -841,7 +841,7 @@ POST STYLING
     content: "";
     position: absolute;
     top: -1.25em;
-    background:  #e6e6e6;
+    background: #97a9cc;
     display: block;
     height: 2px;
     width: 150px;
@@ -850,7 +850,7 @@ POST STYLING
     content: "";
     position: absolute;
     bottom: -1.25em;
-    background:  #e6e6e6;
+    background: #97a9cc;
     display: block;
     height: 2px;
     width: 150px;
@@ -881,7 +881,7 @@ POST STYLING
   margin-bottom: 2rem; }
 
 .post .dropcap {
-  color:  #e6e6e6;
+  color: #97a9cc;
   margin-right: .45rem; }
 
 .post .featuredImage {
@@ -894,8 +894,8 @@ POST STYLING
 POST NAV STYLING
 ***************/
 .postNav {
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #97a9cc;
+  border-bottom: 1px solid #97a9cc;
   overflow: hidden; }
   .postNav .prev, .postNav .next {
     display: block;
@@ -970,7 +970,7 @@ FOOTER STYLING
           width: 100%;
           height: 100%; }
           .footer-links ul li a svg .outer-shape {
-            fill:  #e6e6e6; }
+            fill: #97a9cc; }
           .footer-links ul li a svg .inner-shape {
             fill: white; }
       .footer-links ul li:hover a svg .outer-shape {
@@ -996,7 +996,7 @@ POST LIST STYLING
     position: absolute;
     bottom: -2rem;
     left: 0;
-    background: #e6e6e6;
+    background: #97a9cc;
     height: 2px;
     width: 60px; }
   .posts li a {
