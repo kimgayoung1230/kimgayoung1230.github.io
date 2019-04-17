@@ -686,11 +686,11 @@ body {
     margin: 0 0 2rem; }
 
 ::-moz-selection {
-  background: seagreen;
+  background: #97a9cc;
   color: white; }
 
 ::selection {
-  background: seagreen;
+  background: #97a9cc;
   color: white; }
 
 img, video, audio, iframe, object {
@@ -1061,7 +1061,7 @@ HEADER STYLING
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
       max-width: 800px; }
-    .header h1 {
+    .header h2 {
       font-size: 3em;
       line-height: 1;
       letter-spacing: -3px;

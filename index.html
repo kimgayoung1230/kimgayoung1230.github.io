@@ -4,15 +4,20 @@ title: autumn:AlwaysHappYoung
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
+  <h1 class="pageTitle">prologue</h1>
+  <h2 class="pageTitle">김가영 │ 소개</h2>
   <ul class="posts noList">
-    {% for post in paginator.posts %}
+    <li>
+      <h3>Profile</h3>
+      <p>김가영</p>
+    </li>
+    <!-- {% for post in paginator.posts %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
       </li>
-    {% endfor %}
+    {% endfor %} -->
   </ul>
   <!-- Pagination links -->
   <div class="pagination">
