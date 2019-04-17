@@ -84,13 +84,21 @@ description: 저의 주요 활동 및 수상 실적을 자세하게 확인하실
   * KSCI 한국컴퓨터정보학회 학술대회 - 우수 논문
 
 <blockquote>
-<| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |>
-| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
+| Step                | Users  | Conversion |
+| ---                 | ---    | ---        |
+| Viewed Home Page    | 13,129 | 7.9%       |
+| Viewed Sign Up Page | 1,044  | 20.6%      |
+| Signed Up           | 215    | 31.2%      |
+| Entered Credit Card | 67     | 50.7%      |
+| Received Submission | 34     |            |
 </blockquote>
+| Step                | Users  | Conversion |
+| ---                 | ---    | ---        |
+| Viewed Home Page    | 13,129 | 7.9%       |
+| Viewed Sign Up Page | 1,044  | 20.6%      |
+| Signed Up           | 215    | 31.2%      |
+| Entered Credit Card | 67     | 50.7%      |
+| Received Submission | 34     |            |
 <!--
 <blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
 
