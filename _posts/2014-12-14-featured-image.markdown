@@ -5,16 +5,15 @@ description: 저의 메인 개발 포트폴리오를 확인하실 수 있습니�
 ---
 #### 음성 및 텍스트 상호변환을 이용한 상담 관리 시스템
 
-<blockquote>
-<h6>제작 기간 : 2018.03.02 ~ 2018.07.01<h6>
+
+<blockquote><h6>제작 기간 : 2018.03.02 ~ 2018.07.01<h6>
 <h6>플랫폼 : Web , App</h6>
 <h6>제작 언어 : JavaScript, HTML, CSS</h6>
 <h6>서버 : Node.js</h6>
 <h6>운영체제 : Windows</h6>
 <h6>DBMS : MySQL</h6>
 <h6>API : Goolge open Api(STT,TTS)</h6>
-<h6>개발 인원 : 1명</h6>
-<blockquote>
+<h6>개발 인원 : 1명</h6></blockquote>
 
 <div>
 <p >
