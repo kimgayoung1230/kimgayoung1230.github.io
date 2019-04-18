@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Main portfolio"
+title:  "음성 및 텍스트 상호변환을 이용한 상담 관리 시스템"
 description: 저의 메인 개발 포트폴리오를 확인하실 수 있습니다.
 ---
 <!-- <h3>음성 및 텍스트 상호변환을 이용한 상담 관리 시스템<h3> -->
@@ -14,6 +14,8 @@ description: 저의 메인 개발 포트폴리오를 확인하실 수 있습니�
 <h6>운영체제 : Windows</h6>
 <h6>DBMS : MySQL</h6>
 <h6>API : Goolge open Api(STT,TTS)</h6>
-<h6>개발 인원 : 1명</h6>
+<h6>개발 인원 : 1명</h6></blockquote>
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+#### 시스템 설계
+<p class="intro"> 서비스관리자가 관리 사이트에서 독거노인의 상태에 따른 질문을 확인하고 필요하면 질문도 추가할 수 있다. 서비스 어플을 통해 정해진 시간에 따라 먼저 독거노인에게 질문한다. 독거노인은 질문에 대한 응답을 할 수 있으며, 응답은 서비스관리자에게 음성을 텍스트로 변환하여 관리 사이트를 통해 제공된다. 사용자인 독거노인이 질문에 정해진 응답을 했을 경우 이외에 무응답인 경우에 대한 상황을 서비스관리자는 실시간으로 관리 사이트를 통해 확인 가능하다. 다음 그림은 제안 시스템 개념도를 나타낸다.</p>
+<img src="/img/시스템설계.png" width="500" height="300">
