@@ -14,7 +14,7 @@ description: 저의 메인 개발 포트폴리오를 확인하실 수 있습니�
 <h6>DBMS : MySQL</h6>
 <h6>API : Goolge open Api(STT,TTS)</h6>
 <h6>개발 인원 : 1명</h6>
-</blockquote>
+<blockquote>
 
 <div>
 <p >
