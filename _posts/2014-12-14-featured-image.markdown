@@ -72,3 +72,9 @@ description: 저의 메인 포트폴리오를 확인할 수 있습니다.
       <img src="/img/어플.png">
       <figcaption><그림 10. 서비스 어플 화면></figcaption>
 </figure>
+
+<h3>시스템의 일부 소스</h3>
+
+<h3>관련 연구</h3>
+
+<h3>관련 기술</h3>
