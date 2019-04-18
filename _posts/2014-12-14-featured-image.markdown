@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "음성 및 텍스트 상호변환을 이용한 상담 관리 시스템"
-description: 저의 메인 개발 포트폴리오를 확인하실 수 있습니다.
+title:  "Main Portfolio"
+description: 음성 및 텍스트 상호변환을 이용한 상담 관리 시스템
 ---
 <!-- <h3>음성 및 텍스트 상호변환을 이용한 상담 관리 시스템<h3> -->
 
