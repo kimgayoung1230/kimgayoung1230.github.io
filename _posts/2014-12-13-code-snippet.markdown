@@ -1,22 +1,100 @@
 ---
 layout: post
-title:  "Post With A Code Snippet"
-date:   2014-12-13
+title:  "Project 01"
+description: 기부를 위한 플리마켓 시스템
 ---
 
-<p class="intro"><span class="dropcap">Y</span>ou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+<h3>시스템 개요</h3>
+<p class="mymy">2016년 세계 기부 지수 및 항목별 순위에 의하면 대한민국은 기부지수 75위로 다소 낮은 순위에 속한다. 우리나라는 아직 기부에 대한 인식이 생활화되어 있지 않기 때문이다. 기부의 불투명성 및 어떻게 기부해야 하는지 모르는 경우 외에도 여러가지 이유 때문에 선뜻 기부를 안하는 경향이 있다. 그래서 기부 방법을 모르는 사람들에게 필요 물품 구입과 함께 기부의 방법 제시하고 기부 이후에 단체의 피드백이나 상황을 사이트를 통해 소비자에게 전달할 수 있는 시스템을 개발한다. </p>
 
-Jekyll also offers powerful support for code snippets:
+<hr color="#97a9cc" size="2px">
+<h5>제작 기간 : 2017.09.04 ~ 2017.12.18<h5>
+<h5>플랫폼 : Web</h5>
+<h5>제작 언어 : JavaScript, HTML, CSS</h5>
+<h5>서버 : Node.js</h5>
+<h5>운영체제 : Windows</h5>
+<h5>DBMS : MySQL</h5>
+<h5>개발 인원 : 5명</h5>
+<h5>진행 사항 : 시스템 구성, 업무분석 별 엔티티 도출·주식별자 정의·관계 정의, 업무 규칙 정의, DB구축, UI설계, 시스템 개발</h5>
+<h5>주요 역할 : UI설계, DB구축 및 서버 연동, DB관련 기능 구현</h5>
+<hr color="#97a9cc" size="2px">
+<br>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<h3>시스템 설계</h3>
+<p class="mymy"> 이 시스템은 주최자가 기부 대상 카테고리를 정해서 마켓을 등록할 수 있다. 판매자는 진행 중인 마켓 중 물품을 판매하고 싶은 마켓을 선택하여 판매처 등록을 할 수 있다. 구매자는 사이트를 통해 관심이 있는 기부 대상 카테고리를 선택하여 진행 중인 플리마켓을 둘러보거나 물품을 구매할 수 있다. 관리자는 주최자가 신청한 마켓을 승인하거나 거절할 수 있다. 다음 그림 1은 제안 시스템 개념도, 그림 2는 제안 시스템 구성도를 나타낸다.</p>
+<figure>
+      <img src="/img/시스템개념도1.png">
+      <figcaption><그림 1.제안 시스템 개념도></figcaption>
+      <img src="/img/시스템 모듈 구성도1.png">
+      <figcaption><그림 2.제안 시스템 구성도></figcaption>
+</figure>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+<h3>모듈 구성도</h3>
+<p class="mymy"> 주최자 시스템 흐름도 추가 예정</p>
+<!-- <figure>
+      <img src="/img/웹질문추가.png">
+      <figcaption><그림 4.질문 추가 관련 시스템 흐름도></figcaption>
+</figure> -->
+<p class="mymy"> 판매자 시스템 흐름도 추가 예정 </p>
+<!-- <figure>
+      <img src="/img/앱질문저장.png">
+      <figcaption><그림 5.응답 저장 시스템 흐름도></figcaption>
+</figure> -->
+<p class="mymy"> 구매자 시스템 흐름도 추가 예정 </p>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+<h3>데이터베이스 설계</h3>
+<p class="mymy"> 다음 그림 2는 데이터베이스 설계 ERD이다. 주최자인 회원이 기부 단체 중 기부 대상을 정하고 마켓, 판매처와 물품을 등록하면 마켓, 판매처와 물품 테이블에 저장된다. 관리자의 승인여부에 따라 마켓 테이블의 상태이름이 바뀐다. 판매자인 회원이 마켓에 판매처, 물품을 등록하면 판매처, 물품 테이블에 저장된다. 주최자의 승인여부에 따라 판매처 테이블의 판매처상태가 바뀐다. 구매자인 회원이 물품을 주문하면 주문 테이블에 정보가 저장되며 포인트 테이블에 적립포인트가 생성된다. 주최자는 마켓이 종료된 후 기부에 대한 피드백을 작성할 수 있으며 피드백 테이블에 저장된다. 포인트 테이블에 저장된 정보로 기간을 정하여 월별 우수회원 통계를 낼 수 있다.</p>
+<figure>
+      <img src="/img/데이터베이스1.png">
+      <figcaption><그림 2. 데이터베이스 설계></figcaption>
+</figure>
+
+<h3>UI 설계</h3>
+<p class="mymy"> 다음 그림 3은 메인 UI 화면이다. 메인화면에는 로그인과 회원가입이 있으며, 원하는 상품 또는 기부 단체 검색이 가능하다. 메뉴 바에서 클릭 시 해당 페이지로 이동할 수 있다. 진행 중인 마켓 일부를 메인 화면에 띄워주고 클릭 시 해당 마켓으로 이동할 수 있다. 회원이 원하는 기부단체를 선택하여 즐겨찾기 할 수 있다.</p>
+<figure>
+      <img src="/img/메인ui.png">
+      <figcaption><그림 3. 메인 UI 화면></figcaption>
+</figure>
+<p class="mymy"> 다음 그림 4는 주최자 입장에서 판매처 신청 목록 UI 화면이다. 마켓이 진행 중인 상태일 때 해당 마켓에 신청한 판매처들과 승인 완료한 판매처들을 볼 수 있다. 판매처를 클릭하면 판매처에 해당하는 물품들과 신청자, 기부 반영 퍼센트를 보고 주최자는 승인 또는 거절할 수 있다. 승인을 하면 판매처에 추가 되고, 거절을 하면 판매처 신청 목록에서 삭제된다.</p>
+<figure>
+      <img src="/img/판매처신청ui.png">
+      <figcaption><그림 4. 판매처 신청 목록 UI 화면></figcaption>
+</figure>
+<p class="mymy"> 다음 그림 5는 판매자 입장에서 물품 관리 UI 화면이다. 마이 페이지 판매처 관리에서 판매처목록을 클릭하면 볼 수 있는 화면이다. 자신이 등록한 물품 이름, 판매처, 가격, 판매 여부를 볼 수 있다.</p>
+<figure>
+      <img src="/img/물품관리ui.png">
+      <figcaption><그림 5. 물품 관리 UI 화면></figcaption>
+</figure>
+
+<h3>데모 시나리오 별 SQL 작성</h3>
+<h5>주최자</h5>
+<p class="mymy"> 플리마켓을 열기 위해 웹에 접속하였다. 마켓 등록을 위해 1. 로그 인을 한다. 2. 기부 단체 버튼을 눌러 기부 대상 카테고리를 정한다. 3. 기부 대상을 정하고 클릭하면 마켓 등록으로 넘어간다. 4. 마켓에 필요한 정보를 입력한다. 5. 물품 등록버튼을 선택하여 물품 정보를 입력하고, 요청 버튼을 클릭한 후 관리자의 승인을 기다린다. 6. 마켓 승인이 완료되면 마켓이 열린다. 7. 마켓 관리 페이지에서 주최자는 마켓 진행 상태와 수익금, 기부금 등을 조회할 수 있으며, 판매자의 신청을 보고 승인 또는 거절한다. 8. 마켓 종료 시 기부금 영수증과 함께 피드백을 작성한다.</p>
+<figure>
+      <img src="/img/주최자시나리오.png">
+      <figcaption><그림 6. 주최자 시나리오 SQL></figcaption>
+</figure>
+<h5>판매자</h5>
+<p class="mymy"> 물품을 판매하기 위해 웹에 접속하였다. 물품 등록을 위해 1. 로그 인을 한다. 2. 메인 화면에서 관심이 있는 기부 대상 카테고리를 선택하여 진행 중인 마켓을 둘러본다.  3. 판매를 하고 싶은 마켓을 선택하여 판매처 등록 버튼을 선택한다. 4. 판매할 물품 정보를 함께 등록한다. 5. 기부 반영 퍼센트를 입력하고 승인 요청 버튼을 클릭한 후 주최자의 승인을 기다린다. 6. 승인이 완료되면 판매를 시작한다. 7. 판매처 관리에서 판매처를 조회하여 선택하면 올려진 물품과 판매된 물품을 확인해 볼 수 있다.</p>
+<figure>
+      <img src="/img/판매자시나리오.png">
+      <figcaption><그림 7. 판매자 시나리오 SQL></figcaption>
+</figure>
+<h5>구매자</h5>
+<p class="mymy"> 기부와 동시에 물건 구매를 위해 웹에 접속하였다. 웹을 이용하기 위해서 1. 로그 인을 한다.  2. 메인 화면에서 관심이 있는 기부 대상 카테고리를 선택하여 진행 중인 마켓을 둘러본다. 또는 자주 보고 싶은 기부 단체를 즐겨 찾기에 추가하여 로그인할 때 마다 볼 수 있게 한다. 3. 원하는 마켓을 선택해보면 그 마켓에 진행중인 판매처들을 볼 수 있다. 4. 구매하고자 하는 물품을 선택한다. 5. 구매 버튼을 선택하여 결제한다. 6. 마이 페이지에서 주문 내역과 지급받은 포인트를 조회할 수 있다.</p>
+<figure>
+      <img src="/img/구매자시나리오.png">
+      <figcaption><그림 8. 구매자 시나리오 SQL></figcaption>
+</figure>
+<h5>관리자</h5>
+<p class="mymy"> 사이트 관리를 위해 웹에 접속하였다. 관리를 위해 1. 로그 인을 한다. 2. 현재 신청한 마켓들을 조회하여 물품들을 확인한 후 승인, 거절할 수 있다. 3. 새로운 기부 대상에 대한 정보를 등록할 수 있다. 4. 해당 달을 선택하여 포인트 순으로 조회할 수 있다. 5. 가장 많은 포인트를 적립한 회원에게 우수 회원을 지정한다.</p>
+<figure>
+      <img src="/img/관리자시나리오.png">
+      <figcaption><그림 9. 관리자 시나리오 SQL></figcaption>
+</figure>
+
+<h3>시스템 결과</h3>
+<p class="mymy"> 다음 그림 10은 메인화면이다. ----시스템 결과화면 추가 예정-----</p>
+<figure>
+      <img src="/img/메인화면.png">
+      <figcaption><그림 10. 메인 화면></figcaption>
+</figure>
