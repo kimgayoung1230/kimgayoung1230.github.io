@@ -80,3 +80,9 @@ description: 저의 메인 포트폴리오를 확인할 수 있습니다.
 </figure>
 
 <h3>관련 기술</h3>
+
+<h3>추가 자료</h3>
+<figure>
+      <img src="/img/우수논문.jpg">
+      <figcaption><KSCI 우수 논문></figcaption>
+</figure>
