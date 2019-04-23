@@ -98,3 +98,6 @@ description: 기부를 위한 플리마켓 시스템
       <img src="/img/메인화면.png">
       <figcaption><그림 10. 메인 화면></figcaption>
 </figure>
+
+<h3>추가 자료</h3>
+<iframe style="width:100% height:100%" src="/pdf/데이터베이스설계 최종 문서.pdf"></iframe>
