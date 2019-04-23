@@ -101,4 +101,5 @@ description: 기부를 위한 플리마켓 시스템
 </figure>
 
 <h3>추가 자료</h3>
-<a href="/pdf/데이터베이스설계 최종 문서.pdf" target="_blank">데이터베이스설계 최종 문서.pdf</a>
+<p class="mymy"><a href="/pdf/데이터베이스설계 최종 문서.pdf" target="_blank">데이터베이스설계 최종 문서.pdf</a></p>
+<br>
