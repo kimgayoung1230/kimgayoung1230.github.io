@@ -94,12 +94,36 @@ description: 기부를 위한 플리마켓 시스템
 </figure>
 
 <h3>시스템 결과</h3>
-<p class="mymy"> 다음 그림 10은 메인화면이다. ----시스템 결과화면 추가 예정-----</p>
-<figure>
-      <img src="/img/메인화면.png">
-      <figcaption><그림 10. 메인 화면></figcaption>
-</figure>
-
+<table border="1">
+  <tr>
+    <td>
+    <figure>
+          <img src="/img/메인화면.png" width="520" height="330">
+          <figcaption><그림 10. 메인 화면></figcaption>
+    </figure>
+    </td>
+    <td>
+    <figure>
+          <img src="/img/기부단체목록화면.png" width="520" height="330">
+          <figcaption><그림 11. 기부단체 목록 화면></figcaption>
+    </figure>
+    </td>    
+ </tr>
+ <tr>
+    <td>
+    <figure>
+        <img src="/img/마켓등록화면.png" width="520" height="330">
+        <figcaption><그림 12. 주최자 - 마켓등록 화면></figcaption>
+    </figure>
+    </td>
+    <td>
+    <figure>
+          <img src="/img/마켓관리화면.png" width="520" height="330">
+          <figcaption><그림 13. 주최자 - 마켓관리 화면></figcaption>
+    </figure>
+    </td>
+  </tr>
+</table>
 <h3>추가 자료</h3>
-<p class="mymy"><a href="/pdf/데이터베이스설계 최종 문서.pdf" target="_blank">데이터베이스설계 최종 문서.pdf</a></p>
+<p class="mymy"><a href="/pdf/데이터베이스설계 최종 문서.pdf" target="_blank">기부를 위한 플리마켓 시스템 최종 문서.pdf</a></p>
 <br>
