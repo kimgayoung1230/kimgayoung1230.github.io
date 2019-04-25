@@ -1,30 +1,36 @@
 ---
 layout: post
-title:  "Figure With A Caption"
-date:   2014-12-12
+title:  "Project 02"
+description: 홀로그래픽 디스플레이를 활용한 헬스케어 서비스
 ---
+<p class="intro">홀로그래픽 디스플레이를 활용한 헬스케어 서비스</p>
 
+<h3>시스템 개요</h3>
+<p class="mymy">기존의 체성분 분석기를 이용하여 사용자의 체성분을 분석한 뒤 이를 Unity에서 Morph 기술을 통해 3D 콘텐츠에 반영하고 그 결과를 홀로그램을 이용하여 가시적으로 나타내줌으로써, 이를 이용하는 사용자에게 보다 명확한 가이드를 제공하며, 운동을 지속적으로 할 수 있게 동기 부여 해주는 서비스를 구현하는 것을 목표로 개발한다. </p>
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+<h3>시스템 기대효과</h3>
+* 운동을 함에 있어서 최고의 동기부여인 몸의 변화를 직접적으로 눈으로 볼 수 있게 되어 쉽게 운동을 그만두는 사람들을 줄일 수 있어서 스포츠센터에서 흔히 쓰일 수 있다.
+* 예측 알고리즘을 통해 축적된 데이터를 분석하여 예측치를 제공, 이를 반영한 결과를 확인함으로써 운동의 목표를 설정하고 올바른 건강관리와 운동에 대한 가이드를 제공한다.
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+<hr color="#97a9cc" size="2px">
+<h5>제작 기간 : 2018.09.03 ~ 2018.12.20<h5>
+<h5>플랫폼 : Web</h5>
+<h5>서버 : Node.js</h5>
+<h5>운영체제 : Windows</h5>
+<h5>DBMS : FireBase</h5>
+<h5>Contents : Unity</h5>
+<h5>개발 인원 : 3명</h5>
+<h5>진행 사항 : 홀로그램 콘텐츠 개발, 데이터베이스 구축, 홀로그램 콘텐츠와 데이터베이스 연동</h5>
+<h5>주요 역할 : DB구축 및 서버 연동(Excel 데이터 파일 -> Json 변환 -> FireBase 삽입)</h5>
+<hr color="#97a9cc" size="2px">
+<br>
 
+<h3>시스템 설계</h3>
+<!-- <p class="mymy"> 이 시스템은 주최자가 기부 대상 카테고리를 정해서 마켓을 등록할 수 있다. 판매자는 진행 중인 마켓 중 물품을 판매하고 싶은 마켓을 선택하여 판매처 등록을 할 수 있다. 구매자는 사이트를 통해 관심이 있는 기부 대상 카테고리를 선택하여 진행 중인 플리마켓을 둘러보거나 물품을 구매할 수 있다. 관리자는 주최자가 신청한 마켓을 승인하거나 거절할 수 있다. 다음 그림 1은 제안 시스템 개념도, 그림 2는 제안 시스템 구성도를 나타낸다.</p> -->
+
+<!-- {% highlight html %}
 <figure>
 	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
 	<figcaption>Fig1. - This is an example figcaption</figcaption>
 </figure>
-
-{% highlight html %}
-<figure>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
-</figure>
-{% endhighlight %}
-
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
-
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
-
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
-
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+{% endhighlight %}  HTML 효과 나타내는 코드-->
